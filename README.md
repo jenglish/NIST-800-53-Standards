@@ -1,13 +1,34 @@
 # NIST-800-53 Standard
-NIST-800-53 Standard Control for [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 
+NIST-800-53 Standard Controls for [Compliance Masonry],
+updated to work better with [ssptool].
 
-To import these data into a OpenControl project add the follow code to your opencontrol.yaml file.
+This is a fork of https://github.com/opencontrol/NIST-800-53-Standards/.
+
+## Main changes
+
+- Names of control families are spelled out in full
+  (i.e., "Access control" instead of "AC").
+- Control descriptions are stored as structured narratives,
+  using an [ssptool] extension to the standard schema.
+
+Data set was generated from the upstream source
+https://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.xml
+found at
+https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final
+
+## Usage
+
+To import these data into a OpenControl project add the following
+your opencontrol.yaml file:
+
 ```yaml
 dependencies:
   standards:
-    - url: https://github.com/opencontrol/NIST-800-53-Standards
+    - url: https://github.com/jenglish/NIST-800-53-Standards
       revision: master
 ```
 
-For more information on the opencontrol.yaml visit the [Compliance Masonry CLI](https://github.com/opencontrol/compliance-masonry#creating-an-opencontrol-project).
+[Compliance Masonry]: https://github.com/opencontrol/compliance-masonry
+[ssptool]: https://github.com/jenglish/ssptool
+
