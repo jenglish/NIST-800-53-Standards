@@ -186,7 +186,7 @@ AC-3 (4):
       key: AC-3 (4)(a)
     - text: "Grant its privileges to other subjects;"
       key: AC-3 (4)(b)
-    - text: "Change security attributes on subjects, objects, the information system, or the information system�s components;"
+    - text: "Change security attributes on subjects, objects, the information system, or the information system's components;"
       key: AC-3 (4)(c)
     - text: "Choose the security attributes to be associated with newly created or revised objects; or"
       key: AC-3 (4)(d)
@@ -481,7 +481,7 @@ AC-9 (3):
   name: Notification of account changes
   family: Access control
   narrative:
-  - text: "The information system notifies the user of changes to [Assignment: organization-defined security-related characteristics/parameters of the user�s account] during [Assignment: organization-defined time period]."
+  - text: "The information system notifies the user of changes to [Assignment: organization-defined security-related characteristics/parameters of the user's account] during [Assignment: organization-defined time period]."
 AC-9 (4):
   name: Additional logon information
   family: Access control
@@ -773,7 +773,7 @@ AC-20 (1):
   narrative:
   - text: "The organization permits authorized individuals to use an external information system to access the information system or to process, store, or transmit organization-controlled information only when the organization:"
     narrative:
-    - text: "Verifies the implementation of required security controls on the external system as specified in the organization�s information security policy and security plan; or"
+    - text: "Verifies the implementation of required security controls on the external system as specified in the organization's information security policy and security plan; or"
       key: AC-20 (1)(a)
     - text: "Retains approved information system connection or processing agreements with the organizational entity hosting the external information system."
       key: AC-20 (1)(b)
@@ -1430,7 +1430,7 @@ CA-5:
   narrative:
   - text: "The organization:"
     narrative:
-    - text: "Develops a plan of action and milestones for the information system to document the organization�s planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities in the system; and"
+    - text: "Develops a plan of action and milestones for the information system to document the organization's planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities in the system; and"
       key: CA-5a.
     - text: "Updates existing plan of action and milestones [Assignment: organization-defined frequency] based on the findings from security controls assessments, security impact analyses, and continuous monitoring activities."
       key: CA-5b.
@@ -3731,7 +3731,7 @@ PL-2:
     - text: "Develops a security plan for the information system that:"
       key: PL-2a.
       narrative:
-      - text: "Is consistent with the organization�s enterprise architecture;"
+      - text: "Is consistent with the organization's enterprise architecture;"
         key: PL-2a.1.
       - text: "Explicitly defines the authorization boundary for the system;"
         key: PL-2a.2.
@@ -4721,7 +4721,7 @@ SA-17:
   narrative:
   - text: "The organization requires the developer of the information system, system component, or information system service to produce a design specification and security architecture that:"
     narrative:
-    - text: "Is consistent with and supportive of the organization�s security architecture which is established within and is an integrated part of the organization�s enterprise architecture;"
+    - text: "Is consistent with and supportive of the organization's security architecture which is established within and is an integrated part of the organization's enterprise architecture;"
       key: SA-17a.
     - text: "Accurately and completely describes the required security functionality, and the allocation of security controls among physical and logical components; and"
       key: SA-17b.
@@ -5191,7 +5191,7 @@ SC-12 (3):
   name: Asymmetric keys
   family: System and communications protection
   narrative:
-  - text: "The organization produces, controls, and distributes asymmetric cryptographic keys using [Selection: NSA-approved key management technology and processes; approved PKI Class 3 certificates or prepositioned keying material; approved PKI Class 3 or Class 4 certificates and hardware security tokens that protect the user�s private key]."
+  - text: "The organization produces, controls, and distributes asymmetric cryptographic keys using [Selection: NSA-approved key management technology and processes; approved PKI Class 3 certificates or prepositioned keying material; approved PKI Class 3 or Class 4 certificates and hardware security tokens that protect the user's private key]."
 SC-12 (4):
   name: Pki certificates
   family: System and communications protection
