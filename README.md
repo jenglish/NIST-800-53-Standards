@@ -9,13 +9,13 @@ This is a fork of https://github.com/opencontrol/NIST-800-53-Standards/.
 
 - Names of control families are spelled out in full
   (i.e., "Access control" instead of "AC").
-- Control descriptions are stored as structured narratives,
-  using an [ssptool] extension to the standard schema.
+
+## Data source
 
 Data set was generated from the upstream source
-https://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.xml
+https://csrc.nist.gov/CSRC/media/Projects/risk-management/800-53%20Downloads/800-53r4/800-53-rev4-controls.xml
 found at
-https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final
+https://csrc.nist.gov/projects/risk-management/sp800-53-controls/downloads
 
 ## Usage
 
@@ -31,4 +31,3 @@ dependencies:
 
 [Compliance Masonry]: https://github.com/opencontrol/compliance-masonry
 [ssptool]: https://github.com/jenglish/ssptool
-
